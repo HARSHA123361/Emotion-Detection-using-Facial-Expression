@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00F1EBEB"
+    android:backgroundTint="#00F6F0F0"
+    android:foregroundTint="#E61515">
+
+    <View
+        android:id="@+id/alphonetext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/savebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="132dp"
+        android:layout_marginBottom="104dp"
+        android:background="#EC0707"
+        android:backgroundTint="#E40F0F"
+        android:fontFamily="@font/lusitana"
+        android:text="@string/save"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/alphonetext"
+        app:layout_constraintStart_toStartOf="@+id/alphonetext" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="202dp"
+        android:layout_height="214dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginBottom="460dp"
+        android:contentDescription="@string/todo3"
+        app:layout_constraintBottom_toBottomOf="@+id/alphonetext"
+        app:layout_constraintStart_toStartOf="@+id/alphonetext"
+        app:srcCompat="@drawable/profile" />
+
+    <View
+        android:id="@+id/view9"
+        android:layout_width="411dp"
+        android:layout_height="78dp"
+        android:background="#E6E6E6"
+        app:layout_constraintBottom_toBottomOf="@+id/alphonetext"
+        app:layout_constraintStart_toStartOf="@+id/alphonetext" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="@string/todo15"
+        app:layout_constraintBottom_toBottomOf="@+id/view9"
+        app:layout_constraintStart_toStartOf="@+id/alphonetext"
+        app:srcCompat="@drawable/icons8_home"
+        tools:ignore="SpeakableTextPresentCheck,DuplicateSpeakableTextCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="276dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="@string/todo14"
+        app:layout_constraintBottom_toBottomOf="@+id/view9"
+        app:layout_constraintStart_toStartOf="@+id/alphonetext"
+        app:srcCompat="@drawable/songs"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/fullname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginBottom="376dp"
+        android:ems="10"
+        android:fontFamily="@font/lusitana_bold"
+        android:hint="Full name"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/alphonetext"
+        app:layout_constraintStart_toStartOf="@+id/alphonetext" />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginBottom="312dp"
+        android:ems="10"
+        android:fontFamily="@font/lusitana_bold"
+        android:hint="address"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/alphonetext"
+        app:layout_constraintStart_toStartOf="@+id/alphonetext"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginBottom="256dp"
+        android:ems="10"
+        android:fontFamily="@font/lusitana_bold"
+        android:hint="City"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/alphonetext"
+        app:layout_constraintStart_toStartOf="@+id/alphonetext"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginBottom="196dp"
+        android:ems="10"
+        android:fontFamily="@font/lusitana_bold"
+        android:hint="language"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/alphonetext"
+        app:layout_constraintStart_toStartOf="@+id/alphonetext"
+        tools:ignore="TouchTargetSizeCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

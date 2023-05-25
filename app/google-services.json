@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "758876516954",
+    "project_id": "imdproject-ab75b",
+    "storage_bucket": "imdproject-ab75b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:758876516954:android:a14aae42c2285ac016de63",
+        "android_client_info": {
+          "package_name": "com.example.imd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "758876516954-b58218kpb3ucaesbk11jtmsi6muodtkt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfeuqwGc6PgOq0i_vQox4RrAOlsThgCxI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "758876516954-b58218kpb3ucaesbk11jtmsi6muodtkt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
